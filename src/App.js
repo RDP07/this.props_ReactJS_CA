@@ -10,4 +10,4 @@ var Greeting = React.createClass({
   }
 });
 
-ReactDOM.render(<Greeting name="Groberta" />, document.getElementById('app'));
+ReactDOM.render(<Greeting name="Ross" />, document.getElementById('app'));
