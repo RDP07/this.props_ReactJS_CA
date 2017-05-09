@@ -3,11 +3,23 @@ import './App.css';
 var React = require('react');
 var ReactDOM = require('react-dom');
 
-
-var Greeting = React.createClass({
+var App = React.createClass({
   render: function () {
-    return <h1>Hi there, {this.props.name}!</h1>;
+    return (
+      <div>
+        <h1>
+          Hullo and, "Welcome to The Newzz," "On Line!"
+        </h1>
+        
+        <article>
+          Latest newzz:  where is my phone?
+        </article>
+      </div>
+    );
   }
 });
 
-ReactDOM.render(<Greeting name="Ross" />, document.getElementById('app'));
+ReactDOM.render(
+  <App />, 
+  document.getElementById('app')
+);
