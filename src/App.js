@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 var React = require('react');
 var ReactDOM = require('react-dom');
+var Greeting = require('./Greeting');
 
 var App = React.createClass({
   render: function () {
