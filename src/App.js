@@ -4,17 +4,10 @@ var React = require('react');
 var ReactDOM = require('react-dom');
 
 
-var PropsDisplayer = React.createClass({
+var Greeting = React.createClass({
   render: function () {
-    var stringProps = JSON.stringify(this.props);
-
-    return (
-      <div>
-        <h1>CHECK OUT MY PROPS OBJECT</h1>
-        <h2>{stringProps}</h2>
-      </div>
-    );
+    return <h1></h1>;
   }
 });
 
-ReactDOM.render(<PropsDisplayer myProp="Hello" />, document.getElementById('app'));
+ReactDOM.render(<Greeting name="Groberta" />, document.getElementById('app'));
