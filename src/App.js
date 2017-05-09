@@ -17,4 +17,4 @@ var PropsDisplayer = React.createClass({
   }
 });
 
-ReactDOM.render(<PropsDisplayer />, document.getElementById('app'));
+ReactDOM.render(<PropsDisplayer name="Hello" />, document.getElementById('app'));
