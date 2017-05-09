@@ -1,5 +1,4 @@
 var React = require('react');
-var ReactDOM = require('react-dom');
 
 var Greeting = React.createClass({
   render: function () {
@@ -7,8 +6,4 @@ var Greeting = React.createClass({
   }
 });
 
-// ReactDOM.render goes here:
-ReactDOM.render(
-  <Greeting name='Groberta' />, 
-  document.getElementById('app')
-);
+module.exports = Greeting;
