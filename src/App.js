@@ -13,7 +13,7 @@ var App = React.createClass({
         </h1>
         <Greeting name="RDP" />
         <article>
-          Latest newzz:  where is my phone?
+          Latest: where is my phone?
         </article>
       </div>
     );
